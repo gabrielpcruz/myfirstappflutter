@@ -24,55 +24,31 @@ class _InicialScreenState extends State<InicialScreen> {
         child: ListView(
           children: const [
             Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
-              5,
+              'Aprender Flutter',
+              'assets/images/dash.png',
+              3,
             ),
             Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
+              'Andar de Bike',
+              'assets/images/bike.webp',
               2,
             ),
             Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
+              'Jogar',
+              'assets/images/jogar.jpg',
               5,
             ),
             Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
+              'Ler',
+              'assets/images/livro.jpg',
               2,
             ),
             Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
+              'Meditar',
+              'assets/images/meditar.jpeg',
               5,
             ),
-            Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
-              2,
-            ),
-            Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
-              5,
-            ),
-            Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
-              2,
-            ),
-            Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
-              5,
-            ),
-            Task(
-              'Macarrão',
-              'https://img.itdg.com.br/tdg/images/recipes/000/000/770/323683/323683_original.jpg',
-              2,
-            ),
+            SizedBox(height: 80,)
           ],
         ),
       ),
