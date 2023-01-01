@@ -24,7 +24,7 @@ class _InicialScreenState extends State<InicialScreen> {
         child: ListView(
           children: const [
             Task(
-              'Aprender Flutter',
+              'Aprender Flutter ',
               'assets/images/dash.png',
               3,
             ),
